@@ -17,7 +17,6 @@ public interface ILogementService {
 
     void deleteLogement(int reference);
 
-    // Méthodes métier supplémentaires
     List<Logement> getLogementsByGouvernorat(String gouvernorat);
 
     List<Logement> getLogementsByType(String type);
